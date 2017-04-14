@@ -401,7 +401,7 @@
    *渲染单条Task模板
    * */
   function render_task_item(data, index) {
-    if (!data || !index) return;
+    if (!data) return;
     var list_item_tpl =
       '<div class="task-item" data-index="' + index + '">' +
       '<span><input class="complete" ' + (data.complete ? 'checked' : '') + ' type="checkbox"></span>' +
