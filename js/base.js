@@ -217,7 +217,7 @@
 
   /*更新Task*/
   function update_task(index, data) {
-    if (!index || !task_list[index])
+    if (!task_list[index])
       return;
 
     task_list[index] = $.extend({}, task_list[index], data);
